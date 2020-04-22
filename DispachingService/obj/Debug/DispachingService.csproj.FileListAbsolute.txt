@@ -1,0 +1,8 @@
+D:\Document\GitRepository\QuartZ_Dispaching\DispachingService\bin\Debug\DispachingService.dll
+D:\Document\GitRepository\QuartZ_Dispaching\DispachingService\bin\Debug\DispachingService.pdb
+D:\Document\GitRepository\QuartZ_Dispaching\DispachingService\bin\Debug\Quartz.dll
+D:\Document\GitRepository\QuartZ_Dispaching\DispachingService\bin\Debug\Quartz.pdb
+D:\Document\GitRepository\QuartZ_Dispaching\DispachingService\bin\Debug\Quartz.xml
+D:\Document\GitRepository\QuartZ_Dispaching\DispachingService\obj\Debug\DispachingService.csproj.CopyComplete
+D:\Document\GitRepository\QuartZ_Dispaching\DispachingService\obj\Debug\DispachingService.dll
+D:\Document\GitRepository\QuartZ_Dispaching\DispachingService\obj\Debug\DispachingService.pdb

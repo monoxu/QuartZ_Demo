@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DispachingService", "DispachingService.csproj", "{6E596AE4-A42A-4F58-9702-03037CFB2724}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartZProject", "..\QuartZProject\QuartZProject.csproj", "{C3884F46-622A-492D-A4F3-3CA96DE29AEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E596AE4-A42A-4F58-9702-03037CFB2724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E596AE4-A42A-4F58-9702-03037CFB2724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E596AE4-A42A-4F58-9702-03037CFB2724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E596AE4-A42A-4F58-9702-03037CFB2724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3884F46-622A-492D-A4F3-3CA96DE29AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3884F46-622A-492D-A4F3-3CA96DE29AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3884F46-622A-492D-A4F3-3CA96DE29AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3884F46-622A-492D-A4F3-3CA96DE29AEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D49130A-549E-42F3-9E80-864C3992FC33}
+	EndGlobalSection
+EndGlobal

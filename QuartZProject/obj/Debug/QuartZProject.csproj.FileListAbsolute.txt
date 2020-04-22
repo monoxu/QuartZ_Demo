@@ -1,0 +1,12 @@
+D:\Document\GitRepository\QuartZ_Dispaching\QuartZProject\bin\Debug\QuartZProject.exe.config
+D:\Document\GitRepository\QuartZ_Dispaching\QuartZProject\bin\Debug\QuartZProject.exe
+D:\Document\GitRepository\QuartZ_Dispaching\QuartZProject\bin\Debug\QuartZProject.pdb
+D:\Document\GitRepository\QuartZ_Dispaching\QuartZProject\bin\Debug\DispachingService.dll
+D:\Document\GitRepository\QuartZ_Dispaching\QuartZProject\bin\Debug\Quartz.dll
+D:\Document\GitRepository\QuartZ_Dispaching\QuartZProject\bin\Debug\DispachingService.pdb
+D:\Document\GitRepository\QuartZ_Dispaching\QuartZProject\bin\Debug\Quartz.pdb
+D:\Document\GitRepository\QuartZ_Dispaching\QuartZProject\bin\Debug\Quartz.xml
+D:\Document\GitRepository\QuartZ_Dispaching\QuartZProject\obj\Debug\QuartZProject.csprojAssemblyReference.cache
+D:\Document\GitRepository\QuartZ_Dispaching\QuartZProject\obj\Debug\QuartZProject.csproj.CopyComplete
+D:\Document\GitRepository\QuartZ_Dispaching\QuartZProject\obj\Debug\QuartZProject.exe
+D:\Document\GitRepository\QuartZ_Dispaching\QuartZProject\obj\Debug\QuartZProject.pdb
