@@ -1,4 +1,5 @@
 ﻿using DispachingService.CustomJob;
+using DispachingService.CustomListener;
 using Quartz;
 using Quartz.Impl;
 using System;
@@ -19,6 +20,8 @@ namespace DispachingService
             await scheduler.Start();
             #endregion
 
+            scheduler.ListenerManager.AddJobListener(new CustomJobListener());
+
             #region 作业描述
             IJobDetail jobDetail = JobBuilder.Create<SendMessageJob>()
                                                 .WithIdentity("sendMessageJob","group1")
@@ -34,7 +37,8 @@ namespace DispachingService
             ITrigger trigger = TriggerBuilder.Create()
                                              .WithIdentity("sendMessageTrigger", "group1")
                                              //.StartNow()
-                                             .WithSimpleSchedule(w=>w.WithIntervalInSeconds(5).WithRepeatCount(1000))
+                                             //.WithSimpleSchedule(w=>w.WithIntervalInSeconds(5).WithRepeatCount(1000))
+                                             .WithCronSchedule("5/10 * * * * ?")
                                              .Build();
             //trigger.JobDataMap.Add("student1", "Azu");
             //trigger.JobDataMap.Add("student2", "Ben");
@@ -42,8 +46,12 @@ namespace DispachingService
             //trigger.JobDataMap.Add("Year", 2020);
             #endregion
 
+            IJobDetail sayHiDetail = JobBuilder.Create<SayHiJob>()
+                                     .WithIdentity("sayHiJobDetail", "group1")
+                                     .WithDescription("this is sayHiJobDetail job")
+                                     .Build();
             //把时间策略和作业承载到单元上
-            await scheduler.ScheduleJob(jobDetail, trigger); 
+            await scheduler.ScheduleJob(sayHiDetail, trigger); 
         }
     }
 }

@@ -6,3 +6,4 @@ D:\Document\GitRepository\QuartZ_Dispaching\DispachingService\bin\Debug\Quartz.x
 D:\Document\GitRepository\QuartZ_Dispaching\DispachingService\obj\Debug\DispachingService.csproj.CopyComplete
 D:\Document\GitRepository\QuartZ_Dispaching\DispachingService\obj\Debug\DispachingService.dll
 D:\Document\GitRepository\QuartZ_Dispaching\DispachingService\obj\Debug\DispachingService.pdb
+D:\Document\GitRepository\QuartZ_Dispaching\DispachingService\obj\Debug\DispachingService.csprojAssemblyReference.cache
