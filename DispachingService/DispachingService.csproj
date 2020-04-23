@@ -49,6 +49,8 @@
     <Compile Include="CustomJob\SayHiJob.cs" />
     <Compile Include="CustomJob\SendMessageJob.cs" />
     <Compile Include="CustomListener\CustomJobListener.cs" />
+    <Compile Include="CustomListener\CustomScheduleListener.cs" />
+    <Compile Include="CustomListener\ItriggerListener.cs" />
     <Compile Include="DispachingManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
